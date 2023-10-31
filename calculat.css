@@ -1,0 +1,98 @@
+body{
+    background-color: #121212;
+}
+h3{
+
+
+    text-align: center;
+    padding: 23px;
+    color: black;
+    text-size-adjust: 20%;
+
+}
+.calb{
+    width: 300px;
+    height: 660px;
+    margin: auto;
+    border:3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #252525;
+}
+#cal{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3px;
+    border-color:white ;
+    
+    
+}
+input{
+    width:20px;
+    background-color:  #252525;
+    color:white;
+    border: 3px solid #252525;
+    border-radius: 5px;
+    padding:26px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+
+    
+
+#Clear{
+    color:#2a73ff ;
+}
+
+
+
+
+
+#divi{
+    color:#2a73ff ; 
+}
+#multip{
+    color:#2a73ff ;
+}
+#subt{
+    color:#2a73ff ;
+}
+#pluse{
+    color:#2a73ff ;
+}
+#lg{
+    color:#2a73ff ; 
+    padding-left: 7%;
+    width: 60px;
+
+   
+    
+}
+
+#⌫{
+    color:#2a73ff ;
+    padding-left: 10px;
+    width: 60px;
+
+}
+#sqruare{
+    color:#2a73ff ; 
+}
+#equal{
+    width:60px;
+    height: 90px; ;
+    margin-left: 0.2ch;
+    border-radius:15px ;
+    padding: 0.1%;
+    background-color: #2a73ff;
+    color: white;
+}
+
+#comma1{
+   color: coral;
+}
+#comma2{
+    color:coral;
+} 

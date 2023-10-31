@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="calcu.js"></script>
+        <script src="sweetalert.min.js"></script>
+        <link rel="stylesheet" href="calculat.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h3 align="center">CALCULATOR</h3>                                          
+        <div class="calb">
+            <form name="form1"onclick="clck()" id="form">
+                
+               <input id="cal" type="text" name="answer" readonly><br>
+               <br>
+               <input type="button" value="C" onclick="form1.answer.value =''" id="Clear">
+               <input type="button" value="/" onclick="form1.answer.value +='/'"id="divi">
+               <input type="button" value="×" onclick="form1.answer.value +='*'"id="multip">
+               <input type="button" value="⌫" onclick="DEL(form1.answer.value)"id="⌫">
+               <br>
+               <input type="button" value="7" onclick="form1.answer.value +='7'">
+               <input type="button" value="8" onclick="form1.answer.value +='8'">
+               <input type="button" value="9" onclick="form1.answer.value +='9'">
+               <input type="button" value="-" onclick="form1.answer.value +='-'"id="subt">
+               <br>
+               <input type="button" value="4" onclick="form1.answer.value +='4'">
+               <input type="button" value="5" onclick="form1.answer.value +='5'">
+               <input type="button" value="6" onclick="form1.answer.value +='6'">
+               <input type="button" value="+" onclick="form1.answer.value +='+'"id="pluse">
+               <br>
+               <input type="button" value="1" onclick="form1.answer.value +='1'">
+               <input type="button" value="2" onclick="form1.answer.value +='2'">
+               <input type="button" value="3" onclick="form1.answer.value +='3'">
+               <input type="button" value="=" onclick="form1.answer.value=eval(form1.answer.value)"id="equal">
+               <br>
+               <input type="button" value="%" onclick=" percent();">
+               <input type="button" value="0" onclick="form1.answer.value +='0'">
+               <input type="button" value="." onclick="form1.answer.value+='.'" >
+               <input type="button" value="&radic;" onclick="sqrt(form1.answer.value)" id="sqruare">
+               <br>
+               <input type="button" value="log" onclick="log(form1.answer.value)"id="lg">
+               <input type="button" value="," onclick="form1.answer.value ','"id="comma2">
+               <input type="button" value="," onclick="form1.answer.value ','" id="comma1">
+               <input type="button" value="on" onclick="onandoff();" id="btn">
+             
+             
+
+               
+
+               
+
+
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    </body>
+</html>
